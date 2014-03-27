@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		9A17177E18DBF1CA00643084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A17177D18DBF1CA00643084 /* Foundation.framework */; };
 		9A17178418DBF1CA00643084 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A17178218DBF1CA00643084 /* InfoPlist.strings */; };
+		9A17179318DBF1D800643084 /* VFTokenCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17178B18DBF1D800643084 /* VFTokenCollection.h */; };
+		9A17179418DBF1D800643084 /* VFTokenCollection.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A17178C18DBF1D800643084 /* VFTokenCollection.c */; };
+		9A17179518DBF1D800643084 /* VFByteFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17178D18DBF1D800643084 /* VFByteFormatter.h */; };
+		9A17179618DBF1D800643084 /* VFByteFormatter.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A17178E18DBF1D800643084 /* VFByteFormatter.c */; };
+		9A17179718DBF1D800643084 /* VFMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17178F18DBF1D800643084 /* VFMachine.h */; };
+		9A17179818DBF1D800643084 /* VFMachine.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A17179018DBF1D800643084 /* VFMachine.c */; };
+		9A17179918DBF1D800643084 /* VFFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17179118DBF1D800643084 /* VFFileManager.h */; };
+		9A17179A18DBF1D800643084 /* VFFileManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A17179218DBF1D800643084 /* VFFileManager.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +25,14 @@
 		9A17178118DBF1CA00643084 /* VFSystemUtilities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VFSystemUtilities-Info.plist"; sourceTree = "<group>"; };
 		9A17178318DBF1CA00643084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A17178518DBF1CA00643084 /* VFSystemUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VFSystemUtilities-Prefix.pch"; sourceTree = "<group>"; };
+		9A17178B18DBF1D800643084 /* VFTokenCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFTokenCollection.h; sourceTree = "<group>"; };
+		9A17178C18DBF1D800643084 /* VFTokenCollection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VFTokenCollection.c; sourceTree = "<group>"; };
+		9A17178D18DBF1D800643084 /* VFByteFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFByteFormatter.h; sourceTree = "<group>"; };
+		9A17178E18DBF1D800643084 /* VFByteFormatter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VFByteFormatter.c; sourceTree = "<group>"; };
+		9A17178F18DBF1D800643084 /* VFMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFMachine.h; sourceTree = "<group>"; };
+		9A17179018DBF1D800643084 /* VFMachine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VFMachine.c; sourceTree = "<group>"; };
+		9A17179118DBF1D800643084 /* VFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFFileManager.h; sourceTree = "<group>"; };
+		9A17179218DBF1D800643084 /* VFFileManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VFFileManager.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,14 @@
 		9A17177F18DBF1CA00643084 /* VFSystemUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				9A17178B18DBF1D800643084 /* VFTokenCollection.h */,
+				9A17178C18DBF1D800643084 /* VFTokenCollection.c */,
+				9A17178D18DBF1D800643084 /* VFByteFormatter.h */,
+				9A17178E18DBF1D800643084 /* VFByteFormatter.c */,
+				9A17178F18DBF1D800643084 /* VFMachine.h */,
+				9A17179018DBF1D800643084 /* VFMachine.c */,
+				9A17179118DBF1D800643084 /* VFFileManager.h */,
+				9A17179218DBF1D800643084 /* VFFileManager.c */,
 				9A17178018DBF1CA00643084 /* Supporting Files */,
 			);
 			path = VFSystemUtilities;
@@ -81,6 +105,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A17179918DBF1D800643084 /* VFFileManager.h in Headers */,
+				9A17179318DBF1D800643084 /* VFTokenCollection.h in Headers */,
+				9A17179718DBF1D800643084 /* VFMachine.h in Headers */,
+				9A17179518DBF1D800643084 /* VFByteFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A17179618DBF1D800643084 /* VFByteFormatter.c in Sources */,
+				9A17179818DBF1D800643084 /* VFMachine.c in Sources */,
+				9A17179418DBF1D800643084 /* VFTokenCollection.c in Sources */,
+				9A17179A18DBF1D800643084 /* VFFileManager.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,15 +315,14 @@
 		9A17178918DBF1CA00643084 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VFSystemUtilities/VFSystemUtilities-Prefix.pch";
+				GCC_UNROLL_LOOPS = YES;
 				INFOPLIST_FILE = "VFSystemUtilities/VFSystemUtilities-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -302,15 +333,14 @@
 		9A17178A18DBF1CA00643084 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VFSystemUtilities/VFSystemUtilities-Prefix.pch";
+				GCC_UNROLL_LOOPS = YES;
 				INFOPLIST_FILE = "VFSystemUtilities/VFSystemUtilities-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
