@@ -109,7 +109,9 @@ int VFCompare(const char *string1, const char *string2) {
     return (strcmp(string1, string2) == 0);
 }
 
-
+int VFContains(const char *string1, const char *string2) {
+    return (strstr(string1, string2) != NULL);
+}
 
 
 

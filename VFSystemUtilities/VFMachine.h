@@ -1,6 +1,5 @@
 //
 //  VFMemoryStatus.h
-//  FileIO
 //
 //  Created by Dima Bart on 2014-03-17.
 //  Copyright (c) 2014 Dima Bart. All rights reserved.
@@ -76,6 +75,13 @@ static const char *kVFHardwareStringModelName   = "hw.model";
  *
  */
 typedef enum {
+    VFDeviceTypeUndetermined = 0,
+    VFDeviceTypeiPhone       = 1,
+    VFDeviceTypeiPad         = 2,
+    VFDeviceTypeiPod         = 3,
+} VFDeviceType;
+
+typedef enum {
     VFiPhoneTypeUndetermined = 0,
     VFiPhoneTypeOriginal     = 1,
     VFiPhoneType3G           = 2,
@@ -114,7 +120,14 @@ typedef enum {
     VFiPadTypeMini2GSM     = 18,
 } VFiPadType;
 
-
+typedef enum {
+    VFiPodTypeUndetermined = 0,
+    VFiPodTypeOriginal     = 1,
+    VFiPodType2G           = 2,
+    VFiPodType3G           = 3,
+    VFiPodType4G           = 4,
+    VFiPodType5G           = 5,
+} VFiPodType;
 
 /*
  * =============================
@@ -132,8 +145,11 @@ uint64_t VFParameterGetHardwareNumber(const char *name, char **error);
  *
  */
 const char * VFCopyDeviceName(char **error);
-VFiPhoneType VFGetiPhoneType();
-VFiPadType VFGetiPadType();
+
+VFDeviceType VFGetDeviceType(char **error);
+VFiPhoneType VFGetiPhoneType(char **error);
+VFiPadType VFGetiPadType(char **error);
+VFiPodType VFGetiPodType(char **error);
 
 
 

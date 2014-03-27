@@ -1,6 +1,5 @@
 //
 //  VFFileManager.h
-//  DictionaryParser
 //
 //  Created by Dima Bart on 2014-03-12.
 //  Copyright (c) 2014 Dima Bart. All rights reserved.
@@ -19,17 +18,11 @@
 #import <sys/dirent.h>
 #import <stdbool.h>
 
-
-
-
 #ifndef OBJC_BOOL_DEFINED
     typedef signed char BOOL;
     #define YES (BOOL)1
     #define NO  (BOOL)0
 #endif
-
-
-
 
 // MARK: - Type Definitions - Blocks -
 typedef void (^VFDirectoryEnumerationBlock)(void *info, char *error);

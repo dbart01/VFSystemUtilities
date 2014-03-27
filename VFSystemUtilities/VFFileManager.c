@@ -1,6 +1,5 @@
 //
 //  VFFileManager.m
-//  DictionaryParser
 //
 //  Created by Dima Bart on 2014-03-12.
 //  Copyright (c) 2014 Dima Bart. All rights reserved.

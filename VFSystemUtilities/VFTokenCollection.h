@@ -29,3 +29,4 @@ void VFTokenCollectionRelease(VFTokenCollection collection);
 #pragma mark - String Operations -
 char * VFJoin(const char *str1, const char *str2);
 int VFCompare(const char *string1, const char *string2);
+int VFContains(const char *string1, const char *string2);
