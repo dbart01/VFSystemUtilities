@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A17177E18DBF1CA00643084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A17177D18DBF1CA00643084 /* Foundation.framework */; };
 		9A17178418DBF1CA00643084 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A17178218DBF1CA00643084 /* InfoPlist.strings */; };
-		9A17179318DBF1D800643084 /* VFTokenCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17178B18DBF1D800643084 /* VFTokenCollection.h */; };
+		9A17179318DBF1D800643084 /* VFTokenCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17178B18DBF1D800643084 /* VFTokenCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A17179418DBF1D800643084 /* VFTokenCollection.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A17178C18DBF1D800643084 /* VFTokenCollection.c */; };
-		9A17179518DBF1D800643084 /* VFByteFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17178D18DBF1D800643084 /* VFByteFormatter.h */; };
+		9A17179518DBF1D800643084 /* VFByteFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17178D18DBF1D800643084 /* VFByteFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A17179618DBF1D800643084 /* VFByteFormatter.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A17178E18DBF1D800643084 /* VFByteFormatter.c */; };
-		9A17179718DBF1D800643084 /* VFMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17178F18DBF1D800643084 /* VFMachine.h */; };
+		9A17179718DBF1D800643084 /* VFMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17178F18DBF1D800643084 /* VFMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A17179818DBF1D800643084 /* VFMachine.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A17179018DBF1D800643084 /* VFMachine.c */; };
-		9A17179918DBF1D800643084 /* VFFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17179118DBF1D800643084 /* VFFileManager.h */; };
+		9A17179918DBF1D800643084 /* VFFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17179118DBF1D800643084 /* VFFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A17179A18DBF1D800643084 /* VFFileManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A17179218DBF1D800643084 /* VFFileManager.c */; };
+		9A5D914818E49753006921E6 /* VFSystemUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5D914718E49753006921E6 /* VFSystemUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +33,7 @@
 		9A17179018DBF1D800643084 /* VFMachine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VFMachine.c; sourceTree = "<group>"; };
 		9A17179118DBF1D800643084 /* VFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFFileManager.h; sourceTree = "<group>"; };
 		9A17179218DBF1D800643084 /* VFFileManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VFFileManager.c; sourceTree = "<group>"; };
+		9A5D914718E49753006921E6 /* VFSystemUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFSystemUtilities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A17177E18DBF1CA00643084 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +75,7 @@
 		9A17177F18DBF1CA00643084 /* VFSystemUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				9A5D914718E49753006921E6 /* VFSystemUtilities.h */,
 				9A17178B18DBF1D800643084 /* VFTokenCollection.h */,
 				9A17178C18DBF1D800643084 /* VFTokenCollection.c */,
 				9A17178D18DBF1D800643084 /* VFByteFormatter.h */,
@@ -109,6 +110,7 @@
 				9A17179318DBF1D800643084 /* VFTokenCollection.h in Headers */,
 				9A17179718DBF1D800643084 /* VFMachine.h in Headers */,
 				9A17179518DBF1D800643084 /* VFByteFormatter.h in Headers */,
+				9A5D914818E49753006921E6 /* VFSystemUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +369,7 @@
 				9A17178A18DBF1CA00643084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
