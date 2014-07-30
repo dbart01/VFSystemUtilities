@@ -52,10 +52,10 @@ VFMemorySnapshot VFMemorySnapshotCreate(char **error) {
     if (error) *error = NULL;
     
     uint64_t pagesize = VFMemoryCopyPagesize(error);
-    if (*error) return NULL;
+    if (error && *error) return NULL;
     
     vm_statistics_data_t info = VFMemoryGetStat(error);
-    if (*error) return NULL;
+    if (error && *error) return NULL;
     
     VFMemorySnapshot snapshot = malloc(sizeof(_VFMemorySnapshot));
     if (snapshot) {
