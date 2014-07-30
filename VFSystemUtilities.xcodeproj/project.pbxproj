@@ -17,6 +17,7 @@
 		9A17179918DBF1D800643084 /* VFFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A17179118DBF1D800643084 /* VFFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A17179A18DBF1D800643084 /* VFFileManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A17179218DBF1D800643084 /* VFFileManager.c */; };
 		9A5D914818E49753006921E6 /* VFSystemUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5D914718E49753006921E6 /* VFSystemUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA4284E19887181009BF682 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9AA4284D19887181009BF682 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9A17179118DBF1D800643084 /* VFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFFileManager.h; sourceTree = "<group>"; };
 		9A17179218DBF1D800643084 /* VFFileManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VFFileManager.c; sourceTree = "<group>"; };
 		9A5D914718E49753006921E6 /* VFSystemUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFSystemUtilities.h; sourceTree = "<group>"; };
+		9AA4284D19887181009BF682 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		9A17178018DBF1CA00643084 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9AA4284D19887181009BF682 /* README.md */,
 				9A17178118DBF1CA00643084 /* VFSystemUtilities-Info.plist */,
 				9A17178218DBF1CA00643084 /* InfoPlist.strings */,
 				9A17178518DBF1CA00643084 /* VFSystemUtilities-Prefix.pch */,
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA4284E19887181009BF682 /* README.md in Resources */,
 				9A17178418DBF1CA00643084 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
